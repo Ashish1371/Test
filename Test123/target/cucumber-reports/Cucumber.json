@@ -1,0 +1,306 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4505760643,
+              "status": "passed"
+            },
+            "match": {
+              "location": "def.Startup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Testing 1",
+        "description": "",
+        "id": "test;testing-1",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1462373744,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Open FireFox Driver",
+            "match": {
+              "location": "def.User_Open_FireFox_Driver()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 24413657350,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Opens facebook",
+            "match": {
+              "location": "def.user_Opens_facebook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3295347752,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User fills sign up form",
+            "match": {
+              "location": "def.user_fills_sign_up_form(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Type",
+                  "Field",
+                  "Value"
+                ],
+                "line": 7
+              },
+              {
+                "cells": [
+                  "textbox",
+                  "name",
+                  "Ashish"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "textbox",
+                  "lastname",
+                  "Choudhary"
+                ],
+                "line": 9
+              },
+              {
+                "cells": [
+                  "textbox",
+                  "email",
+                  "abc@abc.com"
+                ],
+                "line": 10
+              },
+              {
+                "cells": [
+                  "textbox",
+                  "emailConfirmation",
+                  "abc@abc.com"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "textbox",
+                  "password",
+                  "abcd"
+                ],
+                "line": 12
+              },
+              {
+                "cells": [
+                  "radio",
+                  "sex",
+                  "null"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "dropdown",
+                  "day",
+                  "31"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "dropdown",
+                  "month",
+                  "10"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "dropdown",
+                  "year",
+                  "1990"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "button",
+                  "signup",
+                  "null"
+                ],
+                "line": 17
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3919383859,
+              "status": "passed"
+            },
+            "match": {
+              "location": "def.Startup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Testing 2",
+        "description": "",
+        "id": "test;testing-2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14507,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Open FireFox Driver",
+            "match": {
+              "location": "def.User_Open_FireFox_Driver()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29052700182,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User Opens facebook",
+            "match": {
+              "location": "def.user_Opens_facebook()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1474007242,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User fills sign up form",
+            "match": {
+              "location": "def.user_fills_sign_up_form(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Type",
+                  "Field",
+                  "Value"
+                ],
+                "line": 26
+              },
+              {
+                "cells": [
+                  "textbox",
+                  "name",
+                  "Sakshi"
+                ],
+                "line": 27
+              },
+              {
+                "cells": [
+                  "textbox",
+                  "lastname",
+                  "Choudhary"
+                ],
+                "line": 28
+              },
+              {
+                "cells": [
+                  "textbox",
+                  "email",
+                  "abc@abc.com"
+                ],
+                "line": 29
+              },
+              {
+                "cells": [
+                  "textbox",
+                  "emailConfirmation",
+                  "abc@abc.com"
+                ],
+                "line": 30
+              },
+              {
+                "cells": [
+                  "textbox",
+                  "password",
+                  "abcd"
+                ],
+                "line": 31
+              },
+              {
+                "cells": [
+                  "radio",
+                  "sex",
+                  "null"
+                ],
+                "line": 32
+              },
+              {
+                "cells": [
+                  "dropdown",
+                  "day",
+                  "26"
+                ],
+                "line": 33
+              },
+              {
+                "cells": [
+                  "dropdown",
+                  "month",
+                  "7"
+                ],
+                "line": 34
+              },
+              {
+                "cells": [
+                  "dropdown",
+                  "year",
+                  "1994"
+                ],
+                "line": 35
+              },
+              {
+                "cells": [
+                  "button",
+                  "signup",
+                  "null"
+                ],
+                "line": 36
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Test",
+    "description": "",
+    "id": "test",
+    "keyword": "Feature",
+    "uri": "test1.feature"
+  }
+]
