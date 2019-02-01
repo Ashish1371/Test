@@ -5,7 +5,7 @@ Scenario: Testing 1
    And User Opens facebook
    And User fills sign up form
     |Type|Field|Value|
-    |textbox|name|Ashish|
+    |textbox|name|Ashu|
     |textbox|lastname|Choudhary|
     |textbox|email|abc@abc.com|
     |textbox|emailConfirmation|abc@abc.com|
