@@ -24,7 +24,7 @@ Scenario: Testing 2
    And User Opens facebook
    And User fills sign up form
     |Type|Field|Value|
-    |textbox|name|Sakshi|
+    |textbox|name|saku|
     |textbox|lastname|Choudhary|
     |textbox|email|abc@abc.com|
     |textbox|emailConfirmation|abc@abc.com|
